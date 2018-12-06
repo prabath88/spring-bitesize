@@ -1,4 +1,4 @@
-project: spring
+project: prabath
 environments:
   - name: dev
     namespace: spring-dev
