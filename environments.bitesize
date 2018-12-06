@@ -1,7 +1,7 @@
 project: prabath
 environments:
   - name: dev
-    namespace: spring-dev
+    namespace: prabath-dev
     deployment:
       method: rolling-upgrade
     services:
