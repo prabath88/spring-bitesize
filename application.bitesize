@@ -1,4 +1,4 @@
-project: spring
+project: prabath
 applications:
   - name: spring-app
     runtime: ubuntu-jdk8:1.0
