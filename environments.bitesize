@@ -10,3 +10,13 @@ environments:
         port: 8080
         ssl: "false"
         replicas: 2
+   - name: stg
+    namespace: prabath-stg
+    deployment:
+      method: rolling-upgrade
+    services:
+      - name: spring-app
+        external_url: prabathstg.prsn.io
+        port: 8080
+        ssl: "false"
+        replicas: 2
