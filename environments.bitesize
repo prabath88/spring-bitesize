@@ -6,7 +6,7 @@ environments:
       method: rolling-upgrade
     services:
       - name: spring-app
-        external_url: prabathtest.prsn.io
+        external_url: prabathtest.prsn.io,prabathtest2.prsn.io,
         port: 8080,8081
         ssl: "false"
         replicas: 1
